@@ -74,11 +74,9 @@ class Person{
         $Person6 = new Person ("Лариса", "Алексеева", 72, null, null);
         $Person5 = new Person("Михаил", "Бурый", 70, null, null);
         $Person4 = new Person("Надежда", "Бурая", 82, null, null);
-		
-		//Маму будут звать Наталья
+
 		$mother = new Person("Наталья", "Лысо-Иванова", 49, $Person4, $Person5);
 		$dad = new Person("Максим", "Алексеев", 50, $Person6, $Person7);
-		//Тут мы проставили объект мама в качестве мамы для нашего Алексея(4 параметр),соответственно 5 параметр -отец
 		$men = new Person ("Алексей","Иванов",25,$mother,$dad);
 
 		$Person7 = new Person ("Николай", "Алексеев", 71, null, null);
